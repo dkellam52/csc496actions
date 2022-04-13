@@ -15,7 +15,7 @@ export default () => {
     <>
       <button onClick={() => dispatch(pieDataUpdateActionFunction())}>
         Update Data
-      </button><h1>Hello, World!</h1>
+      </button><h1>Hello, Class!</h1>
       <Pie
         data={pieDataValues}
         width={600}
