@@ -7,6 +7,9 @@ import Pie from '../components/pie'
 export default () => {
   const dispatch = useDispatch()
   const pieDataValues = usePieData()
+
+  console.log(pieDataValues)
+
   const pieDataUpdateActionFunction = pieDataUpdateAction
   return (
     <>
@@ -15,8 +18,8 @@ export default () => {
       </button>
       <Pie
         data={pieDataValues}
-        width={400}
-        height={400}
+        width={600}
+        height={600}
         innerRadius={100}
         outerRadius={200}
         cornerRadius={15}

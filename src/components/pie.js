@@ -50,7 +50,7 @@ const Pie = props => {
   const data = createPie(props.data)
 
   return (
-    <svg width={props.width} height={props.height}>
+    <svg className="helloClass" width={props.width} height={props.height}>
       <g transform={`translate(${props.outerRadius} ${props.outerRadius})`}>
         {data.map((d, i) => (
           <Arc

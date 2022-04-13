@@ -1,3 +1,4 @@
 module.exports = {
-  plugins: []
+  plugins: [],
+  pathPrefix: "/csc496actions",
 }

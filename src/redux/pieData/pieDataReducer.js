@@ -2,6 +2,10 @@ import {actionTypes} from './pieActions'
 import {generateRandomValues} from '../../../src/utils/randomDataGenerator'
 
  const pieData = (state = {}, action) => {
+     
+    console.log("An action has occured!")
+     console.log(action)
+
     switch (action.type) {
         case actionTypes.UPDATE_DATA:
             return generateRandomValues()
